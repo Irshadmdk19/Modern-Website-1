@@ -10,12 +10,14 @@ html,body{
 }
 .main{
     width: 100%;
+    background-color: black;
 }
 
 .hero{
     color: aliceblue;
     height: 100vh;
     background-color: black;
+    position: relative;
 }
 .nav{
     display: flex;
@@ -28,6 +30,9 @@ html,body{
     color: aliceblue;
     padding: 10px 20px;
 
+}
+.nav h4{
+    padding-right: 1vw;
 }
 .heading{
     margin-top: 9cqw;
@@ -120,6 +125,7 @@ html,body{
     text-transform: uppercase;
     font-size: 8vw;
     opacity: .7;
+
 }
 
 .last-elem{
