@@ -34,6 +34,15 @@ html,body{
 .nav h4{
     padding-right: 1vw;
 }
+/* Animatyions */
+.bounding{
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
 .heading{
     margin-top: 9cqw;
 }
@@ -50,13 +59,19 @@ html,body{
 }
 .blocktext {
     width: fit-content;
+    display: flex;
+    align-items: end;
 
 }
-.blocktext{
+.blocktext h5{
+
     font-size: 15px;
     text-align: right;
 }
 .small-headings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     margin-top: 90px;
     padding-right: 15px;
 }
